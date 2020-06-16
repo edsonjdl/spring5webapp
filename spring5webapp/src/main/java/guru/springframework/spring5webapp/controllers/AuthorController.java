@@ -5,7 +5,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import guru.springframework.spring5webapp.repositories.AuthorRepository;
-
+/*
+ * Controller: interface entre o request do usuário e as ações internas
+ */
 @Controller
 public class AuthorController {
 
